@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+	<title>
+	
+</title>
+
+<style type="text/css">
+    body,ul{margin: 0 auto;padding: 0}
+	ul li{list-style-type: none;padding: 20px;background: #456175;float: left;margin-left: 10px;color: #fff}
+</style>
+</head>
+<body>
+   <input type="text" id="inputNum" />
+   <button id="input_left">向左入</button>
+   <button id="input_right">向右入</button>
+   <button id="left_out">向左出</button>
+   <button id="right_out">向右出</button>
+   <ul id="num"><li>1</li><li>2</li></ul>
+
+   <script type="text/javascript" src="js/session6.js">
+
+   </script>
+   <script type="text/javascript">
+var cNode =document.getElementById('num').getElementsByTagName('li');
+var input_text = document.getElementById('inputNum').value;
+var list = document.getElementById('num');
+
+
+
+
+
+function add_child(){
+
+  var newEl= '<li>'+ input_text +'</li>';
+  var position = document.getElementsByTagName('ul')[0];
+
+  document.getElementById('input_left').addEventListener('click',function(){
+  	position.innerHTML = newEl + position.innerHTML;
+
+  });
+
+  document.getElementById('input_right').addEventListener('click',function(){
+  	position.innerHTML += newEl;
+  });
+
+
+
+}
+
+
+function remove_child(data){
+
+	  var removeChlid = document.getElementsByTagName('li')[data];
+      var container = removeChlid.parentNode;
+      container.removeChild(removeChlid);
+}
+
+function remove_frist(){
+	document.getElementById('left_out').addEventListener('click',function(){
+		alert(list.firstChild.innerHTML);
+		remove_child(0);
+	});
+}
+
+function remove_last(){
+
+	document.getElementById('right_out').addEventListener('click',function(){
+		alert(list.lastChild.innerHTML);
+		list.removeChild(list.lastChild);
+			
+	});
+}
+
+function click_remove(){
+
+        for( var i=0; i<cNode.length; i++){
+            cNode[i].index= i;
+            cNode[i].onclick = function(){
+            this.parentNode.removeChild(this);
+        } 
+
+	}
+}
+
+
+
+function init(){
+add_child();
+remove_frist();
+remove_last();
+click_remove();
+}
+
+init();
+
+	
+ </script>
+</body>
+</html>
