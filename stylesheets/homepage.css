@@ -1,0 +1,17 @@
+body,p,ul,li,dl,dd,dt,h1{margin: 0 auto;padding: 0;list-style: none}
+a{text-decoration: none}
+body{width: 980px;font-size: 14px;}
+pre{background: #efefef;padding: 14px 0}
+.page-header{margin: 30px auto 10px}
+.page-header .project-name{font-size: 38px;}
+.main-content{border-bottom: 1px solid #ccc;height:34px;}
+.contaniner{width:980px;position: relative;margin-top: 9px;}
+.nav{position: fixed;width: 660px;margin-left:320px; }
+.nav .article{border-bottom: 1px solid #ccc;margin-bottom: 20px;position: relative;}
+.article dt{font-size:24px;padding:14px;font-weight: 700}
+.article dd{padding:0 0 10px 14px;}
+.intro{position: fixed;background:#efefef;width: 300px;height: 100%}
+.intro dl {border-bottom: 1px dashed #dfdfdf}
+.intro dl dt{font-size:14px;font-weight: 700;padding:4px 0 4px 14px;}
+.intro dl dd{padding:4px 0 4px 30px;font-size: 12px;cursor:pointer;}
+.intro dl dd:hover{background:#dfdfdf}
