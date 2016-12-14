@@ -1,0 +1,538 @@
+ CSS Document */
+body{font-size:12px;height:18px; background:#ffffff;font-family: "Microsoft YaHei" !important}
+.disHide{display: none;}
+.cecbp a{color: #593614}
+.cecbp a:hover{text-decoration: underline;}
+.leftPages{width:660px; margin-right:30px; display:inline;float:left;}
+.rightPages{width:300px;float:right;}
+.mt20{margin-top:20px;}
+.mt_35{margin-top:35px;}
+.mt_0{margin-top:0px !important;}
+.mr_0{margin-right:0 !important;}
+.pt20{padding-top:20px;}
+.banner_bg{width:100%; height:320px; background:url(http://image.ceconline.com/MA/post-eventbg_2016120703.jpg) center no-repeat;}
+.banner{width:990px; height:421px; margin:0 auto; position:relative;}
+.banner_botton{width:362px; height:100px; display:block; position:absolute; left:686px; bottom:74px; cursor:pointer;}
+.nav_bg{width:100%; height:35px; background:#cecece;}
+.nav_fixed{position:fixed;top:0;left:0; z-index:99;}
+.nav{width:1100px; margin:0 auto;}
+.nav ul li{margin:0; padding:0; /*width:65px; */margin-left:60px; margin-right:0px; list-style:none; float:left; font:16px/35px "microsoft Yahei";}
+.nav ul li a{color:#000000;}
+.nav ul li a:hover{color:#000000;}
+#nav_Current{color:#FFFFFF; font-weight:bold;}
+.wrap_Awards{padding:0px 10px 20px 10px; margin-top:10px; background:#FFF; width:990px; margin:0 auto; margin-bottom:10px;font-family: 'microsoft Yahei'}
+.wrap_Org{padding:0px 10px 20px 10px; margin-top:10px; background:#FFF; width:990px; margin:0 auto; margin-bottom:0px;}
+/*闁哄倷鍗冲锟�*/
+.news_box{position:relative;}
+.new_scroll{width:990px;height:320px;overflow:hidden;position:relative;}
+.new_scroll li{width:990px;height:320px;overflow:hidden;position:relative;list-style:none;}
+.right_new{width:430px; height:320px; float:right;}
+.left_new{width:530px; height:310px;padding:4px 17px 0px 10px; border:3px solid #e5e5e5; border-right:none; float:left;}
+.left_new h1{line-height:30px; color:#cecece; height:60px; font-weight:normal;}
+.left_new h1 a{color:#cecece !important;}
+.left_new h1 a:hover{color:#a28a4a; text-decoration:underline;}
+.new_line{border-bottom:dashed 1px #CCCCCC; width:510px; height:auto; margin:16px auto;}
+.new_txt{width:530px; height:180px; text-indent:2em; line-height:28px; color:#666666;}
+.new_txt a{color:#cecece !important;}
+.new_txt a:hover{color:#cecece; text-decoration:underline;}
+.new_pagination{position:absolute;text-align:center;width:530px;bottom:5px;}
+.new_pagination a{background:url(http://image.ceconline.com/MA/top10_main2015.png) no-repeat 0px -219px;display: inline-block;margin:4px 8px;height: 23px;width: 23px; line-height:23px; color:#000000; text-decoration:none;}
+.new_pagination a.selected{background-position: 0 -195px; color:#FFFFFF;}
+.new_pagination a span{display: none;}
+/*闁圭粯鍔曢幃锟�*/
+.title{border-bottom:solid 1px #e3511e; width:auto; height:50px; padding-left:54px; background:url(http://image.ceconline.com/MA/top10_main2015.png) 0px -244px no-repeat; color:#e3511e;font:18px/50px "Microsoft Yahei","閻庣懓顑勭紞锟�";}
+.title_noline{ width:auto; height:50px; line-height:50px; padding-left:54px; background:url(http://image.ceconline.com/MA/top10_main2015.png) 0px -244px no-repeat; color:#916d24; position:relative;}
+.Gift{width:110px; height:90px; background:url(http://image.ceconline.com/MA/top10_main2015.png) -90px -73px no-repeat;position:absolute;top:-15px;right:11px;z-index:5;}
+.Gift_txt{width:99px; height:46px; background:url(http://image.ceconline.com/MA/tm.gif) no-repeat; position:absolute; top:5px; right:110px; z-index:6;}
+.more{width:50px; height:50px; line-height:50px; position:absolute; right:5px; top:0px; z-index:10; font-size:12px;}
+.more a{color:#593614 !important;}
+.more a:hover{color:#593614; text-decoration:underline;}
+.Nominate_bg{width:530px; height:248px; background:#c4ab68; margin-top:15px; overflow:hidden;}
+.Nominate_bg ul li{margin:0; margin-top:11px; list-style:none;}
+.Nominate_bg .dd_title{width:70px; height:23px; line-height:23px; padding-left:20px; color:#3a1f05; float:left;}
+.Nominate_bg .dd_form{width:400px; height:23px; float:left;}
+.Nominate_bg .dd_form input{height:22px; line-height:23px; width:390px; border:none; border:0; color:#9d9d9d; font-size:12px;}
+.Nominate_bg .dd2_input{height:22px; line-height:23px; width:100px !important; border:none; border:0; color:#9d9d9d; font-size:12px;}
+.Nominate_bg .dd_form textarea{line-height:20px; border:none; border:0;}
+.Nominate_bg .dd_Required{line-height:23px; float:left;}
+.Choice_bg{width:430px; height:228px; background:#fcf9f4; padding:10px 0px; margin-top:15px; overflow:hidden;}
+.Choice{width:125px; margin-left:18px; display:inline; color:#666666; line-height:28px; float:left;}
+.Choice ul li{width:125px; list-style:none; clear:both;}
+/*閻犲洤瀚柕鍡曟祰閻﹀海鈧厜鈧尙鐟╅悗鐧告嫹*/
+.left_Comment{width:990px;/height:360px;/ overflow:hidden; float:left;}
+.right_Expert{width:300px; height:416px; float:right;}
+.Comment{width:990px; height:290px; background:#fffbf9; margin-top:15px;}
+.Expert{width:300px; height:107px; margin-top:13px;}
+.Expert_img{width:85px; height:107px; margin-right:10px; display:inline; float:left;}
+.Expert_Introduction{width:205px; color:#666666; float:left;}
+.Expert_Introduction span{color:#333333; font-weight:bold;}
+.Expert_name{height:40px; padding:0px 5px;}
+.Expert_Message{width:175px; height:57px;padding:5px 10px 5px 20px; background:url(http://image.ceconline.com/MA/top10_main2015.png) 0px -293px no-repeat;line-height:18px;}
+.Cooperation{margin:10px auto 30px;}
+.Cooperation ul li{width:123px; height:56px; margin:0px 20px; display:inline; border:solid 1px #dddddd; float:left;}
+/*.top10_button{width:85px; height:27px; background:url(http://image.ceconline.com/MA/botton_bg.jpg) repeat-x;border:1px solid #b7813e !important; -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;font-size:14px; font-family:'microsoft Yahei'; color:#91450a;}*/
+.top10_button{width:93px; height:36px; background:url(http://image.ceconline.com/MA/top10_main2015.png) 0px -540px repeat-x;border:none;pointer;font:16px/35px "Microsoft Yahei","閻庣懓顑勭紞锟�";text-align:center;color:#2E47CC;}
+.top10_inputArea{line-height:22px; padding:10px;}
+.top10_inputArea a{ margin:0px 3px; display:inline; color:#990000 !important;}
+.top10_inputArea .input_title{color: #7D7D7D;}
+.top10_inputArea .top10_input_area{border:solid 1px #f5f4f4;line-height:18px;padding:5px; height:43px; width:950px; font-size:12px; color:#9d9d9d;}
+.top10_inputArea .top10_submit {font-weight:normal;line-height:22px;padding:8px; padding-left:40px;}
+/*閻犲洤瀚柛銉ｅ灲閵嗗妫冮敓锟�*/
+#tabs1{width:660px; margin-top:20px;}
+.menu1box{position:relative;overflow:hidden;height:30px; width:660px;text-align:left;}
+#menuAccreditation1{position:absolute; top:0; left:0; z-index:1;}
+#menuAccreditation1 li{float:left; display:block; margin-left:5px; cursor:pointer; width:100px; background:#c4ab68; text-align:center; line-height:30px; height:30px; color:#FFFFFF; font-family:"microsoft Yahei"; font-size:14px; list-style:none;}
+#menuAccreditation1 li.hover{background:#fff; border:1px solid #c4ab68; border-bottom:none; color:#593614;}
+#mainAccreditation1 ul{display:none;}
+#mainAccreditation1 ul.block{display:block;}
+.mainAccreditation1box{margin-top:-2px; border-top:2px solid #c4ab68; width:660px;}
+.main{width:660px;}
+.main ul{list-style:none;}
+.main ul li{height:220px; list-style:none; text-align:center; line-height:23px; width:150px; margin:40px 105px 0px 0px;display:inline; float:left; z-index:1;}
+.main ul li img{vertical-align:bottom;}
+.main ul li a{text-decoration:none; color:#666666; position:relative; z-index:200; display:block;}
+.main ul li a:hover{visibility:visible; position:relative; z-index:201;}
+.main ul li a .div_left{display:none; text-align:left; z-index:1000;}
+.main ul li a:hover .div_left{position:absolute;left:150px;top:0px;display:block;overflow:hidden; z-index:1000;}
+.main ul li a:hover .tipArrow_left{position:absolute;left:144px;top:60px; width:6px; height:11px; background:url(http://image.ceconline.com/MA/top10_main2015.png) -80px -200px no-repeat;opacity:0.8; filter:alpha(opacity=80); z-index:100;}
+.main ul li a .div_right{display:none; text-align:left; z-index:1000;}
+.main ul li a:hover .div_right{position:absolute; right:150px;top:0px;display:block;overflow:hidden; z-index:1000;}
+.main ul li a:hover .tipArrow_right{position:absolute; right:144px;top:60px; width:6px; height:11px; background:url(http://image.ceconline.com/MA/top10_main2015.png) -80px -211px no-repeat;opacity:0.8; filter:alpha(opacity=80); z-index:100;}
+#div1{-moz-opacity: 0.8; opacity: 0.8; filter: alpha(opacity=80); background: #999999;width:235px;height:auto;}
+#div2{background: rgba(153, 153, 153, 0.8) !important; background: #999999;filter: alpha(opacity=80);width:235px;height:auto; padding:10px; line-height:22px;}
+#div2 span{position: relative; color:#000000;}
+/*2014闁圭粯鍔曢幃锟�*/
+.Nominate2014{width:300px; color:#666666; line-height:24px; height:150px;}
+.Nominate2014 h3{color:#333333; font-weight:bold;}
+.Nominate2014 p{margin:0; padding:0; text-indent:2em; padding-bottom:10px;}
+.Nominate2014 ul{margin:0;}
+.Nominate2014 ul li{width:130px; margin-left:20px; display:inline; list-style:none; float:left;}
+/*闁告瑥鍘栭弲鍓佹嫚閸曨偅绋夐幘锟�*/
+.right_Accreditation{width:300px;}
+.right_Accreditation ul li{width:77px; height:150px; line-height:23px; list-style:none; color:#666666; text-align:center; margin:10px 11px; display:inline; float:left;}
+.right_Accreditation ul li img{vertical-align:bottom;}
+/*闁圭粯鍔曢幃鏇犵棯娴ｏ拷*/
+.Collect{margin-top:20px; width:660px; height:108px; color:#666666; position:relative;}
+.Collect h2{width:635px; height:25px; line-height:25px; background:#fcf9f4; padding-left:25px; font-weight:normal; color:#333333;}
+.Collect h2 span{color:#666666; line-height:25px; font-size:12px; padding-left:50px; position:relative;}
+.Collect p{width:635px; padding:0px 10px 0px 25px; line-height:24px; text-indent:2em;}
+.Collect_icon{width:9px; height:9px; background:url(http://image.ceconline.com/MA/top10_main2015.png) -80px -225px no-repeat; left:10px; top:8px; position:absolute; z-index:1;}
+.Collect_new{width:22px; height:14px; background:url(http://image.ceconline.com/MA/news.gif) no-repeat;left:2px;top:0px;position:absolute; z-index:2;}
+.Collect_li{width:660px; margin-top:30px; margin-bottom:30px;}
+.Collect_li ul li{width:660px; list-style:none; height:35px; line-height:35px;background:#fcf9f4;}
+.Collect_li ul li a{width:305px; margin-left:25px; line-height:35px; height:35px; display:inline; float:left; font-size:14px; color:#333333; text-decoration:none; float:left;}
+.Collect_li ul li a span{font-size:12px; color:#666666; padding-left:20px;}
+/*婵炶尪顕ф慨鈺冩嫚閿旇棄鍓伴柕鍡曠瀹稿鐛弶鎴濈）濠㈠爢浣插亾娓氣偓濠靛倹鐗曞ú鏍ㄣ亜閿燂拷*/
+.main_detail{width:650px; margin:0 auto; line-height:24px; color:#666666;}
+.main_detail h1{color:#333333; line-height:35px;border-bottom:solid 1px #cccccc;font-size:14px;text-align: center;margin-bottom:20px;}
+.main_detail p{ text-indent:2em;}
+.main_detail ul{padding-left:20px;}
+.TT_cont{ color:#666666; line-height:24px;}
+.TT_tenYear .tY_list{color:#666666;}
+.tY_middle h4 a{color:#593614 !important;}
+.tY_middle h4 a:hover{color:#593614; text-decoration:underline;}
+.lead{color:#666666; line-height:24px;}
+.lead a{color:#593614 !important;}
+.lead a:hover{ text-decoration:underline;}
+.TT_tenYear h2 a{color:#593614 !important;}
+.TT_tenYear h3 a{color:#593614 !important;}
+.TT_tenYear h2 a:hover{color:#593614; text-decoration:underline;}
+.TT_tenYear h3 a:hover{color:#593614; text-decoration:underline;}
+.TT_tenYear .tY_right a{color:#593614 !important;}
+.TT_tenYear .tY_right a:hover{color:#593614; text-decoration:underline;}
+.TT_cont a{color:#593614 !important;}
+.TT_cont a:hover{color:#593614; text-decoration:underline;}
+.main_detail a{color:#593614 !important;}
+.main_detail a:hover{color:#593614; text-decoration:underline;}
+/*闁绘劗鎳撻崵顔碱嚕閻熸澘姣夐柛銉ュ⒔婢э拷*/
+.black_overlay{display: none;position: absolute;top: 0%;left: 0%;width: 100%;height: 100%;background-color: black;z-index:1001;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
+.white_content {display: none;position: absolute;left:18%;top:10%;width: 65%;height: 80%;border: 1px solid #666;background-color: white;z-index:1002;}
+.white_content_img{position: absolute;top: 4%;width: 100%;height: 100%;background-color: white;overflow: auto;}
+/*-----------闁硅埖娲滈妶銊╂⒓閼革拷-----------*/
+.vote{width:990px;height:900px; margin:0 auto; margin-top:20px; position:relative;overflow:hidden;}
+.title_vote{border-bottom:solid 2px #BC9C6C; width:auto; height:50px;color:#BC9C6C;font:22px/50px "Microsoft Yahei";text-align: left;}
+.title_vote .text_A{ font-size:12px; color:#e3511e; padding-top:20px; line-height:30px; float:right;}
+.title_vote .text_A:hover{ color:#e3511e; text-decoration:underline;}
+.vote_pk{list-style:none;padding-bottom:30px; position:absolute;top:30px;left:0; padding-top:30px;}
+.vote_pk li{list-style:none;width:220px; height:248px; line-height:24px; border:solid 1px #cccccc;margin-top:30px; margin-right:34px; display:inline; position:relative; float:left;}
+.vote_pk li .pic{height:62px;position:relative;}
+.vote_pk li .pic:hover{cursor:pointer;}
+.vote_pk li .vote_pk_portrait{width:85px; height:85px; margin:0 auto;}
+.vote_pk li .vote_pk_portrait img{border-radius:100%;cursor:pointer;}
+.vote_pk li a{ color:#666666;}
+.vote_pk li .Rank_one, .vote_pk li .Rank_two, .vote_pk li .Rank_three{width:30px; height:35px;background:url(http://image.ceconline.com/MA/top10_main2015.png) no-repeat; position:absolute; top:190px; left:190px;}
+.vote_pk li .Rank_one{background-position:0px -675px;}
+.vote_pk li .Rank_two{background-position:-31px -675px;}
+.vote_pk li .Rank_three{background-position:-62px -675px;}
+.vote_txt{height:36px; background:url(http://image.ceconline.com/MA/top10_main2015.png) 33px -466px no-repeat; line-height:18px; display:block;color:#666666;}
+.vote_txt:hover{height:36px; background:url(http://image.ceconline.com/MA/top10_main2015.png) 33px -502px no-repeat;}
+.vote_button{width:93px;height:36px;background:url(http://image.ceconline.com/MA/top10_main2015.png) 0px -540px no-repeat;cursor:pointer;font:16px/35px "Microsoft Yahei","閻庣懓顑勭紞锟�";text-align:center; margin:0 auto; margin-top:8px;}
+.vote_button a{color:#2E47CC;}
+.vote_button a:hover{color:#2E47CC; text-decoration:none;}
+.votedButton{width:93px;height:36px;background:url(http://image.ceconline.com/MA/top10_main2015.png) -100px -540px no-repeat;cursor:pointer;font:16px/35px "Microsoft Yahei","閻庣懓顑勭紞锟�";text-align:center; margin:0 auto; margin-top:8px;}
+.votedBotton a{color:#666666 !important;}
+.votedBotton a:hover{color:#666666; text-decoration:none;}
+.vote_pk li h3{font-size:12px; color:#666666; font-weight:normal; line-height:24px; text-align:center;}
+.vote_pk li h3 span{color:#2E47CC; font-size:16px; font-weight:bold;}
+.vote_pk li p{color:#666666; line-height:24px; padding-top:10px; text-align:left;}
+/*.vote_button{width:125px; height:45px; background:url(http://image.ceconline.com/MA/botton_Vote.jpg) repeat-x;border:1px solid #b7813e !important; -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;font-size:18px; font-family:'microsoft Yahei'; color:#91450a; cursor:pointer;}*/
+.expert_wrap{width:300px;height:361px;overflow:hidden;position:relative;}
+.review_scroll{width:300px;position:absolute;top:0;left:0;}
+a.toggle-expand {
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 3px;
+	color:#593614
+}
+.descrip_show {
+display:block;
+}
+.moreBtn {color:#593614; padding-left:600px; font-size:14px; font-family:'microsoft Yahei'; text-decoration:underline;}
+
+.vote_other{color:#333333;font-family: "microsoft Yahei"}
+.vote_other ul{width:470px; margin-right:30px; display:inline; float:left;}
+.vote_other .vote_other_bg{width:470px; height:30px; line-height:30px; background:#f6f6f6;}
+.vote_other ul li{line-height:28px;list-style-type: none;}
+.vote_other ul li,.vote_other dl dt{font-size: 12px !important;font-weight:500 !important}
+.vote_other ul li span, .vote_other dl dt span{margin-right:10px;}
+.vote_other .Ranking_icon{width:14px; height:14px; background:#e3511e; color:#FFFFFF; line-height:14px; margin:7px 14px 0px 12px; display:inline; float:left;}
+.vote_other .Ranking{width:40px; float:left;}
+.vote_other .Name{width:225px; float:left;}
+.vote_other .Company{width:95px; float:left;}
+.vote_other .Character{width:65px; float:left;}
+.vote_other .Platform{width:157px;height:45px;padding-left:63px;background:#bebec0;font:20px/45px "microsoft Yahei"; color:#FFFFFF;margin:20px auto;display:block;position:relative;}
+.Platform_wechat, .Platform_Forum, .Platform_Train{width:63px;height:45px;background:url(http://image.ceconline.com/MA/top10_main2015.png) no-repeat; position:absolute; left:0; border:0; display:block;}
+.Platform_wechat{background-position:0px -580px;}
+.Platform_Forum{background-position:-64px -580px;}
+.Platform_Train{background-position:-128px -580px;}
+.vote_Previous{}
+.vote_PreviousL{width:470px; margin-right:30px; display:inline; float:left;}
+.vote_PreviousL p{ padding-top:10px; line-height:28px; color:#333333; }
+.vote_PreviousR{width:490px; float:left;}
+.vote_PreviousR ul li{ width:200px; height:150px; margin-left:50px; margin-top:50px; display:inline; float:left;}
+.vote_PreviousR ul li img{vertical-align:bottom; display:block;}
+.vote_PreviousR ul li p{width:190px; height:20px; line-height:20px; padding:5px; display:block; background:#CCCCCC;}
+.vote_PreviousR ul li p a, .vote_PreviousR ul li p a:hover, .vote_Awarded ul li p a, .vote_Awarded ul li p a:hover{ color:#e3511e;}
+.vote_PreviousR ul li p a:hover, .vote_Awarded ul li p a:hover{text-decoration:underline;}
+.voteResult{width:490px; overflow:hidden;}
+.voteResult p{text-indent:2em; line-height:24px; color:#666;}
+.voteResult dl dd{width:490px; padding-top:10px; height:26px;}
+.voteResult dl dd .number{width:20px; height:20px; font-size:14px; text-align:center; margin-right:10px; margin-top:3px; line-height:20px; color:#FFFFFF; float:left;}
+.voteResult dl dd .number_Orange{background:url(http://image.ceconline.com/MA/top10_main2015.png) -80px -439px no-repeat;}
+.voteResult dl dd .number_Darkgray{background:url(http://image.ceconline.com/MA/top10_main2015.png) -105px -439px no-repeat;}
+.voteResult dl dd .number_Lightgray{background:url(http://image.ceconline.com/MA/top10_main2015.png) -130px -439px no-repeat;}
+.voteResult dl dd .vote_name{width:138px; color:#666666;font-family:'microsoft Yahei'; line-height:26px; font-size:16px; float:left;}
+.voteResult dl dd .Percentage_top{width:300px; color:#FFFFFF; line-height:26px; float:left;}
+.voteResult dl dd .Percentage_after{width:300px; color:#FFFFFF; line-height:20px; margin-top:3px; float:left;}
+.voteResult dl dd .Percentage_01{height:26px;background:#e3511e; text-align:right;font-family:'microsoft Yahei';}
+.voteResult dl dd .Percentage_02{height:26px;background:#999999; text-align:right;font-family:'microsoft Yahei';}
+.voteResult dl dd .Percentage_03{height:20px;background:#c4ab68; text-align:right;font-family:'microsoft Yahei';}
+.voteResult dl dd .Percentagenumber{position:absolute; line-height:36px; color:#FFFFFF;}
+.vote_Awarded{}
+.vote_Awarded ul li{width:188px; height:135px; padding:10px 10px 0px 10px; list-style:none; border:solid 1px #dddddd; margin-right:50px; margin-top:20px; margin-bottom:20px; display:inline; float:left;}
+.vote_Awarded ul li img{width:188px; height:106px;}
+.vote_Awarded ul li p{height:24px; text-align:center; font-weight:bold; line-height:24px;}
+.vote_Org{}
+.vote_Org ul li{width:145px; height:55px; margin-right:32px; display:inline; float:left;}
+.vote_Org ul li img{display:block;}
+#Reviewer{padding:40px 0}
+
+
+
+.R_NavIcon{position:fixed;bottom:130px;right:70px;opacity:1;cursor:pointer;background:url(http://image.ceconline.com/MA/top10_main2015.png) 0px -630px no-repeat;width:45px;height:45px;visibility:hidden;}
+.R_Nav{position:fixed;bottom:180px;right:-11px;opacity:1;width:130px;height:345px;padding-top:10px;background:url(http://image.ceconline.com/MA/top10_main2015.png) -215px -295px no-repeat;visibility:hidden;}
+.R_Nav ul li{width:130px;line-height:26px; list-style:none; font-weight:bold;width:108px;padding-left:22px;height:26px;background:url(http://image.ceconline.com/MA/top10_main2015.png) -95px -651px no-repeat;}
+.R_Nav ul li:hover{width:108px; height:26px; padding-left:22px;background:#f5f5f5;background:url(http://image.ceconline.com/MA/top10_main2015.png) -95px -678px no-repeat;}
+.R_Nav ul .R_Nav_Current{width:108px;height:26px;padding-left:22px;background:#f5f5f5;color:#999999;background:url(http://image.ceconline.com/MA/top10_main2015.png) -95px -678px no-repeat;}
+.R_Nav ul li a, .R_Nav ul li a:hover{color:#999999;}
+.People_Info{width:984px; height:525px; border:solid 3px #e3511e; position:relative; margin:0 auto;background:#fff;display:none;overflow:hidden;}
+.People_Close{width:35px; text-align:center; cursor:pointer;position:absolute; right:5px; top:0; z-index:10; height:35px; line-height:35px;font-size:20px; font-weight:bold; color:#333333;}
+.People_Box{display:none; position:relative;}
+.People_Pic{width:270px; height:500px; background:#f7f6f4; padding:25px 20px 0px 25px; float:left;}
+.People_Intro{width:624px; height:500px; padding:25px 25px 0px 20px; line-height:20px; font-size:12px; float:left;}
+.People_previous, .People_next{width:32px; height:40px;background:url(http://image.ceconline.com/MA/top10_main2015.png) no-repeat; float:right;filter:alpha(opacity=40); -moz-opacity:0.4; -khtml-opacity: 0.4; opacity: 0.4; cursor:pointer;}
+.People_previous:hover, .People_next:hover{filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5; cursor:pointer;}
+.People_previous{background-position:0px -711px; position:absolute; bottom:15px; right:60px;}
+.People_next{background-position:-52px -711px; position:absolute; bottom:15px; right:15px;}
+.popupTrigger{cursor:pointer;}
+.border01 {border-color: #c3c3c3; border-style: solid; border-width: 1px; height: 26px; width: 360px;}
+.song12 {color: #fe0000;font-family: "microsoft Yahei";font-size: 12px;font-style: normal;font-weight: normal;line-height: 20px;}
+/*#8939*/
+.Introduce{font-size:16px; font-family:'microsoft Yahei';line-height:24px; background:#f4f4f4; margin-top:10px; padding:10px 10px 30px 10px;}
+.Introduce p{padding-top:10px; text-indent:2em;}
+.SignUp{width:590px; float:left;font-family:'microsoft Yahei'}
+.TimeLine{width:360px; float:right;font-family:'microsoft Yahei'}
+.TimeLine_img{width:360px; height:485px; padding-top:25px; background:url(http://image.ceconline.com/MA/Timeline.jpg) no-repeat; margin-top:10px; float:right;}
+.TimeLine_time{text-align:right; width:125px; margin-right:40px; display:inline; font:14px/18px "microsoft Yahei"; float:left;}
+.TimeLine_content{text-align:left; width:160px; font:12px/18px "microsoft Yahei"; float:left;}
+.top10_button_Awards{width:93px; height:36px; background:url(http://image.ceconline.com/MA/2016top10_bgicon_v2.png) no-repeat; border:none;pointer;font:16px/35px "Microsoft Yahei";text-align:center;color:#BC9C6C;}
+.top10_Reset_Awards{width:93px; height:36px; background:url(http://image.ceconline.com/MA/2015top10_bg.png) -97px 0px no-repeat; border:none;pointer;font:16px/35px "Microsoft Yahei";text-align:center;color:#000000;}
+.anchor{display:block;position:relative;top:-35px;visibility:hidden;}
+/*#8939*/
+
+/*=S 9239 CSS */
+.ad_sz{font-size:14px;float:left;width:50px;height:50px;}
+.footer_ad{color:#bb1d1a;font-size:16px;font-weight:600;height:40px;}
+.footer_adsz{width: 220px;height: 50px;}
+.none{display: none;}
+.prev, .next {position: absolute;top: 56px;width: 14px;height: 23px; cursor: pointer;background: url(http://image.ceconline.com/MA/ticket.png) no-repeat;display: inline-block;font-size: 0;line-height: 0; overflow: hidden;}
+.next_page1{cursor:pointer;position: absolute;left:484px;bottom: 0;color:#9d9d9d;}
+.next_page2{cursor:pointer;position: absolute;left:484px;bottom: 0;color:#9d9d9d;}
+.next{right: 0} 
+.prev {left: 0;background-position: 0 -23px;}
+#next{width:80px;height:140px;position: absolute;top:50px;right:0;cursor:pointer;}
+#prev{width:80px;height:140px;position: absolute;top:50px;cursor:pointer;}
+.People_Introd{width:900px; height:486px; padding:5px 25px 0px 20px; line-height:20px; font-size:12px; float:left;overflow:auto;font-family: 'microsoft Yahei'}
+.People_Introd .People_title{font-size:22px;font-weight:700;color閿涳拷#000閿涙驳argin-bottom:10px;}
+.sz_address{float:right;width:162px;}
+#tFocus{width:960px;margin:20px auto auto;position:relative;}
+#tFocus-pic{width:960px;height:486px;position:relative;  right: 0;bottom:0px;margin-top:250px}
+#tFocus-pic li{width:960px;height:486px;list-style-type:none;left:0;filter:alpha(opacity:0);opacity:0;position: absolute;z-index: 5}
+#tFocus-pic li img{float:left;}
+#tFocus-bg{width:960px;height:66px;position:absolute;left:0;bottom:0;background:#000;filter:alpha(opacity:70);opacity:0.7;z-index:10;}
+#tFocusBtn{width:900px;height:16px;position:relative;left:40px;z-index:20;top: 90px}
+#tFocus-btn{width:830px;height:260px;position:relative;left:30px;bottom:110px;overflow:hidden;float:left;}
+#tFocus-btn ul{width:100000px;position:absolute;left:0;top:0;}
+#tFocus-btn li{float:left;margin:60px 7px 0;list-style: none; cursor:pointer;overflow:hidden;display:inline;text-align:center;}
+#tFocus-btn li.active{border:1px solid #900;margin-top:30px}
+#tFocus-btn li.active img{width: 156px;height: 217px}
+#tFocus-btn ul li{position:relative}
+#tFocus-btn ul li .p_title{position:absolute;width:117px; height: 20px;position: absolute;bottom: -3px;color:#fff; z-index: 20;}
+#tFocus-btn ul li .p_bg{width:117px;height: 20px;position: absolute; left: 0; bottom: 0; background: #000; filter: alpha(opacity:70);opacity: 0.7;z-index: 10;}
+#tFocus-btn li.active .p_bg{width: 156px}
+#tFocus-btn li.active .p_title{width: 156px}
+.tab_sec{margin-top: 16px;}
+.tab_sec li{float:left;list-style-type:none;margin-right:6px;line-height:22px;text-align:center;}
+.tab_sec li span{color:#cecece}
+.tab_year{border-color: #cecece #cecece #cecece transparent;border-style: solid;border-width: 6px 62px 6px 6px;height: 0;position: relative;}
+.tab_year::after {content: "";border-color: transparent transparent transparent #cecece;border-style: dashed dashed dashed solid;border-width: 6px;display: inline-block;font-size: 0;height: 0;line-height: 0;overflow: hidden;vertical-align: middle;width: 0;position: absolute;top: -6px;right: -74px;}
+.tab_sample_cur{color:#9d9d9d;}
+.tab_sample_cur  .t_y{color:#BC9C6C;}
+.tab_sample_cur .tab_year{border-color: #BC9C6C #BC9C6C #BC9C6C transparent;}
+.tab_sample_cur .tab_year::after{border-color: transparent transparent transparent #BC9C6C;}
+.vote_Org ul li{margin:10px;}
+.tab_text span{display:block;font-size: 16px;font-weight: 600;margin-bottom: 14px;}
+.tab_text p{text-indent:2em} 
+.tab_text{width:502px;height:306px; font-size:12px;line-height:24px; overflow-y:auto;word-break:break-all;}
+.tab_pic{float:right;margin:-266px 0px 20px 20px;display:block;}
+.tab_context{padding:70px 20px 0px;height:306px;}
+/*=E 9239 CSS */
+
+
+/*=S 9313*/
+.speaker_con{margin: 0 auto;width: 960px;font-family: "Microsoft YaHei"}
+.speaker_con li{list-style-type: none;float: left;margin-right: 20px}
+.speaker_con li:last-child{margin-right: 0}
+.speaker_con img{float: left;}
+.speaker_Txt{width:100px;float: left;text-align: left;margin-left: 10px}
+.speaker_name{font-size: 14px;margin: 20px 0 10px 0;font-weight: 700}
+/*=S rater*/
+.raterList{height:269px;overflow: hidden;}
+.raterList li{float: left;list-style-type: none;cursor: pointer;position: relative;width:247px;text-align: center;margin-top: 30px;}
+.raterList li:last-child{width: 249px;height: 239px}
+
+/*=S rater container*/
+#rater_con{margin-top:30px;position: relative;height: 329px;overflow:hidden;}
+#rater_con li{list-style-type: none;float: left;width:247px;cursor: pointer;text-align: center;}
+.rater_blurb_hover{background: #f2ebe2}
+.rater_blurb{margin-top:-100px;height:60px;padding:105px 0 90px;color: #000;font-family: "Microsoft YaHei"}
+.raterTxt{width:950px;height:50px;background:#f2ebe2;font-family: "Microsoft YaHei";padding:20px;line-height: 24px;text-align: left;margin-top: -90px;}
+.rater_name{font-size: 14px;font-weight: 700;margin-bottom:3px}
+.raterTxt_con{position: relative;}
+.raterTxt2,.raterTxt6{margin-left: -247px;}
+.raterTxt3,.raterTxt7{margin-left: -494px;}
+.raterTxt4{margin-left: -741px;}
+.rank_more_con{display: none}
+/*=E rater container*/
+
+
+.rater_more_con{text-align: center;margin-top: 25px;z-index: 9999}
+.rater_more{width: 142px;height: 44px;background: #bc9c6c;border-radius:10px;font-size:18px;color:#fff;display: inline-block;line-height:44px;box-shadow:0px 4px 0px 0px #a08152;z-index: 9999}
+.rater_more_con a{color: #fff;text-decoration: none !important;z-index: 999}
+/*=E rater*/
+.top10_assess strong{display: block;}
+.top10_assess img,.top10_assess span{display: inline-block}
+.top10_assess span{width:770px;margin-left:10px}
+
+
+
+
+/*=S slide Date*/
+.Date_content {margin:15px auto 0;font-family:'microsoft Yahei'}
+/*links*/
+.links_list {height:78px;position: relative;z-index: 3;}
+.link_prev,.link_next {top:24px;}
+.link_prev{left:-20px;}
+.link_next{right:-20px}
+#links {height:68px;overflow:hidden;float:left;}
+#links ul {height:78px;overflow:hidden;width:1274px;}
+#links li {float:left;width:68px;margin:0 10px;background:#eee;border-radius:50%;font-size: 24px;line-height:68px;text-align: center;color: #000;list-style-type: none;cursor: pointer;}
+#links .active{background: #bc9c6c;color: #fff}
+#links img {display:block;width:90px;height:32px;overflow:hidden;}
+#links a:hover img {opacity:0.8;filter:alpha(opacity=80);}
+.slideContainer{position: relative;z-index:0;margin: 0 auto;}
+.slide_con{width: 100%;font-family:'Microsoft Yahei'}
+.slide_con li{list-style-type: none;}
+.slide_con p{font-size: 14px}
+.slide_con .slide_img{width: 240px;margin: 10px auto 0}
+.slide_con .slide_title{text-align: center;font-size:18px;margin: 10px 0;font-weight: 700}
+/*=E slide Date*/
+
+/*mobile*/
+.topNavMobile{width:98%;padding:0 1% 10px 1%;z-index: 9999;clear:both;display:none;}
+.topNavMobile_scroll{position:fixed;top:0;background:#fff;left:0;box-shadow:0 0 10px 0 #000;}
+.mobileShow{display: none}
+.mobile_nav{float: right;padding: 18px 0px 0px 0;position:relative;font-family:'Microsoft Yahei'}
+.mobile_nav a{display: inline-block;width: 44px;height: 44px;}
+.mobile_nav_con{position: absolute;border: 1px solid #bc9c6c;background:#fff;right:0px;width:210px;margin: 0!important;top:72px;z-index: 9999}
+.mobile_nav .mobile_nav_con li{width:92%;padding:8px;height:20px;border-bottom: 1px solid #bc9c6c;font-size:16px;list-style-type:none;}
+.mobile_nav .mobile_nav_con li a,.mobile_nav .mobile_nav_con li a:link,.mobile_nav .mobile_nav_con li a:visited{color: #A17738}
+.mobile_nav .mobile_nav_con li:last-child{border:none}
+.mobile_nav_con li a{width: 100%;height: auto}
+.bannerMobile{display: none;}
+/*mobile*/
+
+
+/*=S focusSlide*/
+#FocusTen{padding-top:40px;}
+.focusSlide_section{width: 100%}
+.focusSlide_win{width:100%;height:330px;position:relative;overflow:hidden;margin-top:10px;font-size:12px !important}
+.focusSlide_win ul{overflow: hidden;}
+.focusSlide_win li{list-style-type:none;float:left;}
+.focusSlide_win a:hover{text-decoration:underline;}
+.focusSlide_win .focusSlideLeft{float:left;height:310px;padding:4px 17px 0 10px;width:533px}
+.focusSlide_win .focusSlideRight{width:430px; height:320px; float:right;}
+.focusSlide_win h1{height:60px;line-height:30px;}
+.focusSlide_line{border-bottom:1px dashed #ccc;margin:1px auto;width:96%}
+.focusSlide_win .focusSlide_txt{color:#000;font-size:12px !important;width:530px; height:180px; text-indent:2em; line-height:28px;font-family:'Microsoft Yahei'}
+.focusSlide_win .focusSlide_txt a{color:#593614 !important}
+.focusSlide_btn{width:60%;text-align: center;}
+.focusSlide_btn span{background:url(http://image.ceconline.com/MA/top10_main2015.png) no-repeat scroll 0 -219px;width:23px;height:23px;line-height:23px;color:#000;display:inline-block;text-align:center;margin:0px 8px;cursor:pointer;}
+.focusSlide_btn .page_cur{background-position:0 -195px;color:#fff}
+/*=E focusSlide*/
+
+/*responsive*/
+  @media only screen and (max-width: 780px){
+    .topNav,.mobileHide,.nav_bg,.footer_wrap,.wrap_Awards,.banner_bg,.M_head,.clear_8{display:none !important}
+    .bannerMobile{display: block;width: 100%;overflow: hidden;}
+    .bannerMobile img{max-width:1920px;width: auto;position: relative;height:240px;left:-40%}
+    .banner,#tFocus-pic,#tFocus-pic li{width: 100%}
+    .wrap{width: 100% !important;}
+    .mobileWrap{width:94% !important;margin: 0 3%}
+    .speaker_con{width:100% !important}
+    .speaker_con img{width: 50%;max-width: 194px}
+    .speaker_con li{margin-top:20px !important;margin-right: 0px !important;}
+    .speaker_Txt{width: 45% !important;margin-top:10px}
+    .TimeLine{margin: 10px auto 0;float: left !important;width:100% !important}
+    .TimeLine_content{width: 45%!important;max-width: 160px}
+    .SignUp{width: 100% !important}
+    .SignupTable{width: 100%}
+    .vote_PreviousL{width: 100% !important}
+    .SignupInput{width:83% !important;max-width: 360px}
+    .TimeLine_img{margin:10px auto 0 !important;width:360px;float: none !important}
+    .TimeLine{text-align: center;}
+    .fullWidth{width: 100% !important;margin: 0 !important}
+    .contactList{width: 100% !important;margin: 0 0 60px 0 !important}
+    .contactList img{float: left !important;margin: 0 20px 0 0 !important}
+    .raterTxt{width:96% !important;padding:10px !important;height: auto !important;position: absolute;min-height:70px;
+    }
+
+    #tFocus{width: 100% !important;height:800px}
+    #tFocusBtn{width:90% !important;left:15px !important}
+    #tFocus-btn{width: 100% !important;left: 0 !important}
+    #prev,#next{width:20px !important;height: 80px !important;top:30px}
+    #tFocus-pic{margin-top: 230px}
+    .People_Introd,#tFocus-pic li,#tFocus-pic{padding:10px 0 0 0;width: 100%;height:540px}
+    .top10_assess span{width:80%}
+    #rater_con li{width: 33% !important}
+    .raterTxt2,.raterTxt5{margin-left: -33%;}
+    .raterTxt4,.raterTxt7{margin-left: 0}
+    .raterTxt3,.raterTxt6{margin-left: -66%;}
+    .rank_more_con{display: block;}
+    .mobileShow{display:block;}
+    .rater_list3{margin-top: -90px}
+    .rater_list2{margin-top:10px}
+    .topNavMobile{display:inline-block;}
+    .Date_content{width:480px}
+    #links{width:440px;margin-left:20px}
+
+
+    .focusSlide_win{height:500px;font-size:12px !important}
+    .focusSlide_win .focusSlideLeft{width:100%;height:auto;padding:0}
+    .focusSlide_win .focusSlideLeft a{font-weight:500}
+    .focusSlide_win .focusSlideLeft .focusSlide_txt{width:98%;height:auto;margin: 0 auto}
+    /*.focusSlide_win .right_new{width:100%}*/
+    .focusSlide_win .focusSlideRight{width:100%;float: left;text-align: center;margin-top: 20px}
+    .focusSlide_win .focusSlideRight img{width:98%;max-width:430px;margin:0 auto;height:auto}
+    .focusSlide_btn{width:100%;margin-top:10px}
+    .focusSlide_win .focusSlide_txt{font-size: 12px !important}
+
+  }
+  @media only screen and (max-width: 540px){
+    .SignupTitle{width:20% !important}
+    .TT_inp1{width: 120px !important}
+    .raterTxt{width:95% !important}
+    #rater_con li{width: 129px !important}
+    .raterTxt2,.raterTxt5{margin-left: -129px;}
+    .raterTxt3,.raterTxt6{margin-left: -258px;}
+    #rater_con img{width:80px}
+    #tFocus{height:680px}
+    #tFocus-btn{height: 200px}
+    #tFocus-btn li{margin:60px 5px 0;}
+    .raterList{height: 179px;overflow: hidden;}
+    #tFocus-btn li.active{margin-top:45px !important}
+    #tFocus-btn li.active img{width:100px !important;height:130px !important}
+    #tFocus-btn li img{width:78px !important;height: 108px !important;}
+    #tFocus-btn ul li .p_title{width:78px;}
+    #tFocus-btn ul li .p_bg{width:78px;}
+    #tFocus-btn li.active .p_bg{width: 100px}
+    #tFocus-btn li.active .p_title{width:100px}
+    .top10_assess span{width:80%}
+    .supportIMG img{max-width:280px}
+    .raterTxt7{margin-left: 0}
+    .raterTxt4{margin-left: 0px}
+    .rater_blurb{height: 90px}
+    .rater_list2{margin-top:160px;}
+    .rater_list3{margin-top:10px}
+    .rater_blurb{padding: 105px 0 5px }
+    .raterTxt{margin-top: 0}
+    #tFocus{height:920px}
+    .People_Introd,#tFocus-pic li,#tFocus-pic{height:740px}
+    #tFocus-pic{margin-top: 150px}
+    .Date_content{width: 300px}
+    #links{width:260px;margin-left:16px}
+    .bannerMobile img{height:130px;left:-40%;}
+    .focusSlide_win{height:700px}
+  }
+  @media only screen and (max-width:380px){
+    .TimeLine_img{width: 100% !important;float: left !important;}
+    .mediaLogo li,.mediaLogo li img{width: 130px !important}
+    .raterTxt{width:93% !important}
+    #rater_con li{width: 116px !important}
+    .raterTxt2,.raterTxt5{margin-left: -116px;}
+    .raterTxt3,.raterTxt6{margin-left: -232px;}
+    .Top10Icon{display: none;}
+    .bannerMobile img{height:120px;left:-46%;}
+    .focusSlide_win{height:730px}
+  }
+    @media only screen and (max-width:340px){
+    #rater_con li{width: 100px !important}
+    .raterTxt2,.raterTxt5{margin-left: -100px;}
+    .raterTxt3,.raterTxt6{margin-left: -200px;}
+    .link_prev{left:-8px;}
+    .link_next{right:-5px}
+    #tFocus{height:1000px}
+    .People_Introd,#tFocus-pic li,#tFocus-pic{height:820px}
+    .top10_assess span{width:75%}
+    .rater_list2{margin-top:180px}
+    .bannerMobile img{height:110px;left:-51%;}
+    .focusSlide_win{height:750px}
+  }
+
+
+  
+
+/*mobile*/
+
+/*=E 9313
