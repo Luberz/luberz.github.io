@@ -317,8 +317,8 @@
           } else {
             imageHeight = maxImageHeight;
             imageWidth = parseInt(preloader.width / (preloader.height / imageHeight), 10);
-            $image.width(imageWidth);
-            $image.height(imageHeight);
+            $image.width(imageWidth*1.5);
+            $image.height(imageHeight*1.5);
           }
         }
       }

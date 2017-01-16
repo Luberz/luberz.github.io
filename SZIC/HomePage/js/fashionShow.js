@@ -215,4 +215,12 @@ $(function(){
 
     // =E news list banner effect 
 
+    // =S lightBox function
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+
+    // =E lightBox function
+
 });

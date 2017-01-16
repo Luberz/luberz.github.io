@@ -8,6 +8,7 @@ li{list-style-type:none;}
 .mr30{margin-right:30px}
 .mr60{margin-right:60px}
 .mt20{margin-top:20px}
+.mt40{margin-top:40px}
 .mt60{margin-top:60px}
 .g_fs14{font-size:14px;}
 .pLeft28{padding-left:28px;}
@@ -265,7 +266,8 @@ li{list-style-type:none;}
 .fashion_szic_con h2{line-height:1.5;text-indent:32px;font-size:16px;font-weight:500;text-align:left;width:90%;margin:0 auto}
 .fashion_szic_sin{width:90%;margin:0 auto 100px}
 .fashion_szic_tit{color:#c8005d;font-size:24px;margin-bottom:60px}
-.fashion_szic_brulb,.fashion_szic_map{font-size:14px;width:1200px;margin:0 auto}
+.fashion_szic_brulb,.fashion_szic_map{font-size:14px;width:1200px;margin:0 auto 30px}
+.fashion_szic_map p{font-size:24px;margin-bottom:10px}
 .fashion_szic_map{text-align:center;}
 .fashion_szic_map img{width:100%}
 
