@@ -312,8 +312,8 @@
           if ((preloader.width / maxImageWidth) > (preloader.height / maxImageHeight)) {
             imageWidth  = maxImageWidth;
             imageHeight = parseInt(preloader.height / (preloader.width / imageWidth), 10);
-            $image.width(imageWidth);
-            $image.height(imageHeight);
+            $image.width(imageWidth*1.5);
+            $image.height(imageHeight*1.5);
           } else {
             imageHeight = maxImageHeight;
             imageWidth = parseInt(preloader.width / (preloader.height / imageHeight), 10);
