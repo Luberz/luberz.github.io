@@ -1,0 +1,240 @@
+body,ul,li,dl,dt,dd{margin:0;padding:0}
+.cRed{color:#c00;}
+.c666{color:#666}
+.mt10{margin-top:10px}
+.mt20{margin-top:20px}
+.mt30{margin-top:30px}
+.font14{font-size:14px;}
+.SEO_MT_Box{font-size:1.2em}
+.tailer_top_con{width:100%}
+.SEO_MT_wrap,.SEO_MT_secWrap{width:1240px;margin:0 auto}
+
+.SEO_MT_navWrap{border-bottom:1px solid #ccc}
+.SEO_MT_navWrap .GS_globalNav{width:1240px; margin:0 auto; border-bottom:0;}
+.SEO_MT_navWrap .GS_nav{margin-left:-1000px;padding-left:1000px;*margin-left:-400px;*padding-left:400px;background:#F0F0F0}
+.SEO_MT_Box .GS_header{padding-bottom:5px;}
+.SEO_MT_Box .GS_footer{*zoom:1}
+
+
+
+/*=S 9398*/
+.tailer_content{width:1240px;margin:50px auto 0}
+
+/*tailer banner*/
+.tailer_banner{position:relative;background:url(../IMG/banner.jpg)no-repeat center center;height:280px;color:#fff}
+.tailer_category{position:absolute;left:0;top:-40px;width:177px;height:40px;background:#232f3e;border-radius:5px 5px 0 0;font-size:16px;text-align:center;font-weight:700;line-height:40px;z-index:2;cursor:pointer;}
+.tailer_category .downArrow{border-color:#fff transparent transparent;margin:5px 0 0 10px}
+.tailer_banner .banner_tit{width:600px;padding:50px 0 30px;font-size:40px;font-weight:700;color:#fff;margin:0 auto;text-align:center;}
+.tailer_banner .subhead{background:url(../IMG/Y_tick.png)no-repeat left center;width:21px;height:20px;padding-left:35px;font-size:24px;margin-left:70px}
+.tailer_banner .banner_tit span{color:#ff9900}
+
+/*tailer vertical Tab*/
+.tailer_verticalTab ul{display:table;}
+.tailer_verticalTab ul li{width:205px;height:44px;background:#f2f2f2;border:1px solid #e5e5e5;text-align:center;font-size:14px;display:table-cell;vertical-align:middle;cursor:pointer;}
+.tailer_verticalTab ul .curList{border-bottom:3px solid #ff9900;color:#f90;}
+
+/*tailer container*/
+.tailer_con{margin:40px 0 50px;}
+.tailer_con_tit{background:#232f3e;padding:15px 0 15px 10px;font-size:24px;font-weight:700;margin-bottom:15px;color:#fff}
+
+.tailer_quo_step{padding:20px 6px 0;margin-bottom:30px}
+.tailer_quo_step li{float:left;margin-right:20px}
+.tailer_quo_step li:last-child{margin-right:0}
+.tailer_quo_step li p{font-size:16px;font-weight:700;width:320px;text-align:center;margin:25px auto 0}
+
+
+/*tailer news*/
+.tailer_news_con{margin-bottom:40px}
+.tailer_news_con .tailer_news_sin{width:48%;float:left;margin-right:4%;}
+.tailer_news_con .tailer_news_sin:last-child{margin-right:0}
+.tailer_news_sin .tailer_news .txt{font-size:16px;width:95%;margin-bottom:50px}
+.tailer_news_sin .tailer_news .tit{font-size:18px;font-weight:700;margin-bottom:6px}
+.tailer_news .tit span{margin-right:10px}
+.verifiedIcon,.verManufacturerIco,.TradeShowsIcon{background:url("http://s.globalsources.com/gsol/en/clean/images/i/ICON_SERVICE.PNG")no-repeat;display:inline-block;vertical-align:middle;}
+.tailer_news .tit .verifiedIcon{width:24px;height:24px;background-position:0 -50px}
+.tailer_news .tit .verManufacturerIco{width:24px;height:27px;background-position:0 -1105px}
+.tailer_news .tit .TradeShowsIcon{width:24px;height:24px;background-position:-30px -100px}
+
+
+.tailer_news{font-size:16px}
+.tailer_news .person_info li{margin-bottom:28px}
+.tailer_news .person_info li:last-child{margin-bottom:0}
+.tailer_news .person_info span{float:left;margin-right:12px}
+.tailer_news .person_info span:last-child{margin-right:0;}
+.tailer_news .person_info .txt{margin-bottom:0}
+.person_info_txt{width:79%}
+.upcoming_info{width:70%}
+
+
+.tailer_news .useResource{padding-left:16px}
+.tailer_news .useResource li{list-style-type:disc;padding:6px 0}
+.tailer_news .fb_icon{background:url(../IMG/fb.png)no-repeat;width:29px;height:29px;display:inline-block;vertical-align:middle;margin-right:5px}
+
+
+/*tailer pp slide*/
+.tailer_PP{margin-top:32px;}
+.tailer_pp_con{width:1240px;position:relative;margin-top:32px}
+.tailer_pp_con .tailer_pp_next,.tailer_pp_con .tailer_pp_pre{background:url("http://s.globalsources.com/ST/i/GS_HP_SPRITES2.PNG")no-repeat;display:inline-block;vertical-align:middle;}
+.tailer_pp_con .tailer_pp_next{background-position:-19px -60px;height:18px;width:12px;right:0;top:48%;position:absolute;cursor:pointer;}
+.tailer_pp_con .tailer_pp_pre{background-position:0px -80px;height:18px;width:12px;left:0;top:48%;position:absolute;cursor:pointer;}
+.tailer_pp_slide{position:relative;overflow:hidden;width:1140px;height: 320px;margin:0 auto}
+.tailer_pp_slide li{width:200px;margin-right:30px}
+.tailer_pp_slide li:last-child{margin-right:0}
+
+.tailer_pp_list li p{text-align:center;}
+.tailer_pp_list_tit{font-size:14px}
+
+.tailer_PP .tit{font-size:24px}
+.pp_slide_page{text-align:center;display:none}
+.pp_slide_page span{display:line-block;background:url("http://s.globalsources.com/ST/i/GS_HP_SPRITES2.PNG")no-repeat -0px -40px;width:10px;height:10px;display:inline-block;cursor:pointer;}
+.pp_slide_page .cur{background-position:-16px -40px}
+
+
+
+.HP_cateList{padding-top:1px;z-index:99999;display:none;position:absolute;top:39px;left:0;width:260px;border: 1px solid #acadb1;border-top:none;}
+.HP_L1_category,.HP_L1_cate_none{display:block;height:35px;line-height:35px;padding-left:13px;font-size:1.073em;border:1px solid #bdc0c5;background:#bdc0c5;overflow:hidden;text-align:left;color:#000}
+.HP_L1_category:hover,.HP_L1_cate_none:hover{background:#fff;border:1px solid #fff}
+.HP_cateList_cur .HP_L1_category{background:#fff;border-right:none;position:relative;left:-1px;z-index:99;width:249px;padding:1px 0 1px 14px;margin:-1px 0}
+.HP_cateList_cur .HP_L1_category_last{bottom:-1px;line-height:37px;padding-bottom:1px}
+.HP_L2_cateList,.verticle_pop,.HP_L2_cateList_col2{position:absolute;left:261px;top:0px;z-index:98;display:none;width:278px;min-height:655px;border:1px solid #ccc;border-left:none;padding:15px 15px 0 25px;overflow:auto;background:#fff}
+.HP_cateList_cur .HP_L2_cateList,.HP_cateList_cur .HP_L2_cateList_col2{display:block}
+.HP_L2_col2_dl{padding:0 0 20px;font-size:14px;text-align:left;line-height:18px;font-size:14px}
+.HP_L2_cateList dt,.HP_L2_cateList dd,.HP_L2_col2_dl dt,.HP_L2_col2_dl dd{vertical-align:top}
+.HP_L2_cateList dt,.HP_L2_col2_dl dt{padding:2px 0 1px;font-weight:700;color:#000}
+.HP_L2_cateList dd,.HP_L2_col2_dl dd{padding:4px 0 3px;}
+.HP_L2_cateList_col2{width:581px;padding-right:0px}
+.HP_L2_cateList_col2 .HP_L2_col2_li{float:left;width:278px;padding-right:12px;}
+
+/*=E 9398*/
+
+/*mobile*/
+/*=S header */
+.cmHeader{position:relative;border-bottom:2px solid #C00;height:49px;display:none;}
+.cmHeader .headOpr{position:absolute;right:0;top:10px}
+.cmHeader .headOprItem{position:relative;display:inline-block;margin-right:5px;padding:0 5px;height:30px;border:1px solid #ccc;-webkit-box-shadow:inset 5px -5px 5px #E8EDFE;box-shadow:inset 5px -5px 5px #E8EDFE;vertical-align:top}
+.cmHeader .headLogin{margin-top:5px;background:url("http://s.globalsources.com/gsol/en/mobile/images/COMMON_ICON.PNG")no-repeat;width:19px;height:21px;display:inline-block;}
+.cmHeader .headSearch{margin-top:8px}
+.cmHeader .cmDropList{position:absolute;right:0;top:32px}
+.cmDropList{background:#515096;border:1px solid #07017B;z-index:5}
+.cmDropList li{padding:0 5px;width:100px;border-bottom:1px solid #07017B;line-height:40px;font-size:14px;color:#fff;cursor:pointer}
+.cmDropList li a{color:#fff;}
+.cmDropList li:last-child{border-bottom:none}
+/*=E header */
+
+/*=S old searchbox code*/
+.status_bar nav { padding:12px 8px;}
+.status_bar .reg { border-bottom:1px solid #ccc;line-height:20px; margin-bottom:8px;}
+.status_bar .reg h1 {  font-size:16px;}
+.status_bar .reg h3 { font-size:12px; line-height:16px; font-weight:normal;}
+#search_box {position:relative;border-radius:5px; border:#666 solid 1px; height:42px;display:none}
+#search_box .option {position:relative;width:83px;  background-color:#E4E1F4; height:42px; float:left; padding-left:4px;border-top-left-radius:4px;border-bottom-left-radius:4px}
+#search_box span { height:42px; width:83px; font-weight:bold; color:#030380;display:table-cell; vertical-align:middle; line-height:16px; font-size:14px;}
+#search_box .srDownIcon{position:absolute;right:7px;top:18px}
+#search_box .input {width:100%; height:42px; background:#FFFFFF; color:#000; border:0;border-radius:0;border-left:1px solid #000; font-size:14px; text-indent:4px;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:20px;}
+#search_box .grayTip{color:#999999;}
+#search_box .search_icon { position:absolute;right:0;top:0;width:35px;height:42px;text-indent:-9999px;background:url(http://s.globalsources.com/gsol/en/mobile/images/COMMON_ICON.PNG) no-repeat -32px -185px #e4e1f4;border-left:1px solid #666;border-top-right-radius:4px;border-bottom-right-radius:4px;z-index:1}
+#search_box .search_input { float:none; width:auto; overflow:hidden;border-top-right-radius:5px;border-bottom-right-radius:5px;padding-right:36px;}
+.searchBox_list {margin-top:2px; width:100px; display:none;margin-left:-4px}
+.searchBox_list ul { position:absolute; }
+.searchBox_list li{ float:none; position:relative; height:39px; width:100px; background:#515096;  line-height:39px; padding-left:6px; z-index:1000; border: 1px solid #07017b; margin-top:-1px; color:#FFFFFF; cursor:pointer;font-size:14px}
+#search_box .autocomplete { border:#006 1px solid; font-size:12px; position:relative; z-index:999; display:none; background:#FFF;}
+#search_box .autocomplete li {padding:12px 4px; border-bottom:#ddd 1px solid;}
+#TopSearchBox {margin:0px; padding:0px;}
+span#wrp_con,span#wrp_con2{position:relative;display:inline-block;width:100%;}
+a.clear_con {display:none; width:40px; height:30px;margin:-10px -24px 0 0 ;text-indent:-200px;
+overflow:hidden;background:url(http://s.globalsources.com/gsol/en/mobile/images/clear.png) 18px 10px no-repeat;position:absolute;
+top:0;right:0;cursor:pointer;}
+/*=E old searchbox code*/
+
+.tailer_top_fixed{position:fixed;top:0px;z-index:1000000;background:#fff;box-shadow:0px 0px 5px 0px #333;width:100%}
+
+.mobile_nav_con{display:inline-block;margin:5px 10px 0 6px}
+.mobile_nav{background:url("../IMG/m_nav.png")no-repeat;width:27px;height:21px;display:inline-block;}
+
+
+/*=S mobile select*/
+
+
+.mobile_select{margin:20px auto;width:80%;position: relative;display:none;}
+.mobile_select select{width:100%;font-size:14px;}
+.mobile_select select option{padding:8px}
+
+
+
+/*mobile category*/
+
+/*=S all categories*/
+.catBox{z-index:1000000;position:absolute;right:0;width:280px;display:none;}
+.firstMenu a{display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-pack:center;display:box;box-orient:vertical;box-pack:center;width:100%;height:40px;-webkit-box-sizing:border-box;box-sizing:border-box;line-height:16px;font-size:14px;color:#000;}
+.firstMenu .catItem{position:relative}
+.firstMenu .cmRightIcon, .firstMenu .cmDownIcon{position:absolute;top:15px;right:10px}
+.firstMenu>li>a{padding:0 10px;border-top:1px solid #ccc;font-weight:bold;background:#fff}
+.firstMenu>li:last-child{border-bottom:1px solid #ccc}
+.secondMenu{display:none;background:#d8d4ed}
+.secondMenu>li>a{padding-left:30px;}
+.thirdMenu{display:none;background:#e6e7fc}
+.thirdMenu>li>a{padding-left:48px;border-top:1px solid #dcdedb}
+.firstItemOn>.catItem{color:#0000d0}
+.firstItemOn>.catItem i, .secondItemOn>.catItem i{width:9px;height:6px;background-position:-32px -308px}
+.secondItemOn>.catItem{font-weight:bold}
+
+.cmRightIcon,.cmDownIcon{display:inline-block;background-image:url(http://s.globalsources.com/gsol/en/mobile/images/COMMON_ICON.PNG);background-repeat:no-repeat}
+
+.cmRightIcon{width:6px;height:9px;background-position:0 -306px}
+.cmDownIcon{width:9px;height:6px;background-position:-32px -308px}
+/*=E all categories*/
+
+
+
+
+
+@media screen and (max-width:1030px){
+.SEO_MT_navWrap,.tailer_top_con,.tailer_category,.tailer_verticalTab,.tailer_pp_con .tailer_pp_pre,.tailer_pp_con .tailer_pp_next,.tailer_pp_list li p{display:none;}
+.cmHeader,.status_bar,.tailer_pp_list li .tailer_pp_list_tit,.pp_slide_page,.mobile_nav,.mobile_select{display:block;}
+.tailer_content{margin:0 auto}
+.tailer_content{width:100%}
+.tailer_banner{width:100%;height:auto;padding:10px 0}
+.tailer_banner .banner_tit{width:90%;font-size:2.4em;padding:2% 0}
+.tailer_banner .subhead{width:90%;margin:0 auto;display:block;font-size:16px;padding:14px 0 14px 35px}
+
+
+.tailer_quo_step li{float:none;text-align:center;margin:0 0 20px 0}
+.tailer_quo_step img{width:100%;max-width:394px;height:auto;margin:0 auto}
+.tailer_quo_step li p{width:100%}
+
+.tailer_news_con .tailer_news_sin{width:100%}
+.tailer_news{width:96%;margin:0 auto;padding-bottom:15px}
+
+.tailer_news .person_info span{width:15%}
+.tailer_news .person_info .upcomingIMG{width:20%}
+.tailer_news .person_info img{width:100%}
+.tailer_news .person_info .person_info_txt{width:82%}
+.tailer_news .person_info .upcoming_info{width:65%}
+
+.GS_footer{padding:0}
+
+
+.tailer_PP .tit,.tailer_PP .c666{padding:0 6px}
+.tailer_pp_con{width:100%}
+.tailer_pp_slide{width:650px}
+.tailer_pp_slide li{margin-right:20px}
+.tailer_pp_slide li:last-child{margin-right:0}
+.tailer_pp_slide li img{width:100%}
+}
+
+
+@media screen and (max-width:450px){
+.tailer_banner .subhead{width:85%}
+.tailer_news .person_info span{width:30%}
+.tailer_news .person_info .person_info_txt{width:65%}
+.tailer_news .person_info .upcomingIMG{width:40%}
+.tailer_news .person_info .upcoming_info{width:50%}
+.tailer_pp_slide{width:380px}
+.tailer_pp_slide li{width:110px}
+}
+
+@media screen and (max-width:380px){
+.tailer_pp_slide{width:300px}
+.tailer_pp_slide li{width:83px}
+
+}
