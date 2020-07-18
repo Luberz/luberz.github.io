@@ -8,15 +8,25 @@
   .point{position:absolute;top:36%;left:35%;}
   .point img{width:100%;height:auto;display:block;}
   .turn{animation:turn .3s linear infinite;}
-  .turn1{animation:turn .5s linear infinite;}
-  .turn2{animation:turn 2s linear infinite;}
+  .turn1{animation:turn1 .5s linear infinite;}
+  .turn2{animation:turn2 2s linear infinite;}
   @keyframes turn{
       0%{-webkit-transform:rotate(0deg);}
       
       100%{-webkit-transform:rotate(360deg);}
     }
+    @keyframes turn1{
+      0%{-webkit-transform:rotate(0deg);}
+      
+      100%{-webkit-transform:rotate(360deg);}
+    }
+    @keyframes turn2{
+      0%{-webkit-transform:rotate(0deg);}
+      
+      100%{-webkit-transform:rotate(360deg);}
+    }
 .mask{position:absolute;top:0;left:0;width:100%;height:100vh;background:#333;opacity:.5;z-index:2;display:none;}
-.popup{position:absolute;left:3%;top:20%;border-radius:15px;background:#fff;width:94%;height:60vh;z-index:3;padding:20px;font-size:16px;box-sizing:border-box;text-align:center;display:none;}
+.popup{position:absolute;left:3%;top:20%;border-radius:15px;background:#fff;width:94%;height:60%;z-index:3;padding:20px;font-size:16px;box-sizing:border-box;text-align:center;display:none;}
 .tit{margin-top:30px;text-align:center;font-size:18px;}
 .imgBox{width:90%;margin:30px 5%;border-radius:15px;overflow:hidden;}
 .imgBox>img{width:100%;height:auto}
