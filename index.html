@@ -7,22 +7,31 @@
   .box{background:url('images/choujiang.png')no-repeat;background-position:center;background-size:100%;width:100%;height:100%;position:relative;}
   .point{position:absolute;top:36%;left:35%;}
   .point img{width:100%;height:auto;display:block;}
-  .turn{animation:turn .3s linear infinite;}
-  .turn1{animation:turn1 .5s linear infinite;}
-  .turn2{animation:turn2 2s linear infinite;}
+  .turn{animation:turn .3s linear infinite;-webkit-animation:turn .3s linear infinite;}
+  .turn1{animation:turn1 .5s linear infinite;-webkit-animation:turn1 .5s linear infinite;}
+  .turn2{animation:turn2 2s linear infinite;-webkit-animation:turn2 2s linear infinite;}
   @keyframes turn{
       0%{-webkit-transform:rotate(0deg);}
-      
       100%{-webkit-transform:rotate(360deg);}
     }
     @keyframes turn1{
       0%{-webkit-transform:rotate(0deg);}
-      
       100%{-webkit-transform:rotate(360deg);}
     }
     @keyframes turn2{
       0%{-webkit-transform:rotate(0deg);}
-      
+      100%{-webkit-transform:rotate(360deg);}
+    }
+    @-webkit-keyframes turn{
+      0%{-webkit-transform:rotate(0deg);}
+      100%{-webkit-transform:rotate(360deg);}
+    }
+    @-webkit-keyframes turn1{
+      0%{-webkit-transform:rotate(0deg);}
+      100%{-webkit-transform:rotate(360deg);}
+    }
+    @-webkit-keyframes turn2{
+      0%{-webkit-transform:rotate(0deg);}
       100%{-webkit-transform:rotate(360deg);}
     }
 .mask{position:absolute;top:0;left:0;width:100%;height:100vh;background:#333;opacity:.5;z-index:2;display:none;}
